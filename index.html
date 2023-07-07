@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>metarBR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section id="consulta">
+    <h1 align="center">metar<span id="b">B</span><span id="r">R</span></h1>
+    <p align="center">Digite o ICAO para consulta</p>
+    <form id="formulario" align="center">
+        <input type="text" id="metarSolicitado">
+        <button type="submit">ENVIAR</button>
+    </form>
+    <h2 id="nomeAerodromo" align="center"></h2>
+        <p id="metarPuro"></p>
+        <button type="submit" id="decodificar" onclick="mostrar()">DECODIFICAR</button>
+        <ul id="decodificacao">
+            <li>Data e Hora: <span id="date"></span></li>
+            <li>Temperatura: <span id="temp"></span></li>
+            <li>Umidade Relativa: <span id="umidade"></span></li>
+            <li>Visibilidade: <span id="visibility"></span></li>
+            <li>Teto: <span id="ceiling"></span></li>
+            <li>Céu: <span id="sky"></span></li>
+            <li>Condições Meteorológicas: <span id="summary"></span></li>
+            <li>Vento: <span id="wind"></span></li>
+        </ul>
+    </section>
+</body>
+<script src="script.js">
+</script>
+</html>

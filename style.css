@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+body {
+
+    background-image: url('wallpaper.jpg');
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+
+#decodificacao {
+
+    visibility: hidden;
+
+}
+
+#consulta {
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#b {
+
+    color: green;
+
+}
+
+#r {
+
+    color: yellow;
+
+}
