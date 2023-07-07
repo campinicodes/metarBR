@@ -7,7 +7,7 @@ formulario.addEventListener('submit', function(event) {
     const metarSolicitado = document.getElementById('metarSolicitado');
     metarSolicitadoValor = metarSolicitado.value;
 
-    const url1 = `https://api-redemet.decea.mil.br/aerodromos/info?api_key=fcvRMcgYNDDpETcSVxAUEb5jOgVDIl1AI9ndkbKi&localidade=${metarSolicitadoValor}`;
+    const url1 = `https://api-redemet.decea.mil.br/aerodromos/info?api_key=CHAVEAPI&localidade=${metarSolicitadoValor}`;
     fetch(url1)
         .then(response => response.json())
         .then(data => {
@@ -43,7 +43,7 @@ formulario.addEventListener('submit', function(event) {
         })
         .catch(error => console.log(error));
 
-    const url2 = `https://api-redemet.decea.mil.br/aerodromos/info?api_key=fcvRMcgYNDDpETcSVxAUEb5jOgVDIl1AI9ndkbKi&localidade=${metarSolicitadoValor}`;
+    const url2 = `https://api-redemet.decea.mil.br/aerodromos/info?api_key=CHAVEAPI&localidade=${metarSolicitadoValor}`;
     fetch(url2)
         .then(response => response.json())
         .then(data => {
